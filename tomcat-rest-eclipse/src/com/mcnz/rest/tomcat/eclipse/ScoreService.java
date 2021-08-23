@@ -52,7 +52,8 @@ public class ScoreService {
 	  @Path("/score/losses")
 	  
 	  @Produces("text/plain") public int increaseLosses() 
-	  { return Score.LOSSES++;
+	  {   System.out.printly("Test git change");
+          return Score.LOSSES++;
 	  }
 	 
     
